@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.system.mapper.TInterfaceInfoMapper">
+
+    <resultMap type="TInterfaceInfo" id="TInterfaceInfoResult">
+        <result property="id" column="id"/>
+        <result property="serverCode" column="server_code"/>
+        <result property="serverName" column="server_name"/>
+        <result property="serverView" column="server_view"/>
+        <result property="createTime" column="create_time"/>
+    </resultMap>
+
+    <sql id="selectTInterfaceInfoVo">
+        select id, server_code, server_name, server_view, create_time from t_interface_info
+    </sql>
+
+    <select id="selectTInterfaceInfoList" parameterType="TInterfaceInfo" resultMap="TInterfaceInfoResult">
+        <include refid="selectTInterfaceInfoVo"/>
+        <where>
+            <if test="serverCode != null  and serverCode != ''">and server_code = #{serverCode}</if>
+            <if test="serverName != null  and serverName != ''">and server_name like concat('%', #{serverName}, '%')
+            </if>
+            <if test="serverView != null  and serverView != ''">and server_view = #{serverView}</if>
+        </where>
+    </select>
+
+    <select id="selectTInterfaceInfoById" parameterType="Long" resultMap="TInterfaceInfoResult">
+        <include refid="selectTInterfaceInfoVo"/>
+        where id = #{id}
+    </select>
+
+    <insert id="insertTInterfaceInfo" parameterType="TInterfaceInfo" useGeneratedKeys="true" keyProperty="id">
+        insert into t_interface_info
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="serverCode != null and serverCode != ''">server_code,</if>
+            <if test="serverName != null and serverName != ''">server_name,</if>
+            <if test="serverView != null and serverView != ''">server_view,</if>
+            <if test="createTime != null">create_time,</if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="serverCode != null and serverCode != ''">#{serverCode},</if>
+            <if test="serverName != null and serverName != ''">#{serverName},</if>
+            <if test="serverView != null and serverView != ''">#{serverView},</if>
+            <if test="createTime != null">#{createTime},</if>
+        </trim>
+    </insert>
+
+    <update id="updateTInterfaceInfo" parameterType="TInterfaceInfo">
+        update t_interface_info
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="serverCode != null and serverCode != ''">server_code = #{serverCode},</if>
+            <if test="serverName != null and serverName != ''">server_name = #{serverName},</if>
+            <if test="serverView != null and serverView != ''">server_view = #{serverView},</if>
+            <if test="createTime != null">create_time = #{createTime},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteTInterfaceInfoById" parameterType="Long">
+        delete from t_interface_info where id = #{id}
+    </delete>
+
+    <delete id="deleteTInterfaceInfoByIds" parameterType="String">
+        delete from t_interface_info where id in
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+</mapper>

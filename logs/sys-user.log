@@ -1,0 +1,15 @@
+22:05:41.099 [Thread-24] INFO  sys-user - [shutdownSpringSessionValidationScheduler,41] - ====关闭会话验证任务====
+22:05:41.106 [Thread-24] INFO  sys-user - [shutdownAsyncManager,54] - ====关闭后台任务任务线程池====
+22:05:41.107 [Thread-24] INFO  sys-user - [shutdownEhCacheManager,63] - ====关闭缓存====
+22:09:56.958 [Thread-26] INFO  sys-user - [shutdownSpringSessionValidationScheduler,41] - ====关闭会话验证任务====
+22:09:56.961 [Thread-26] INFO  sys-user - [shutdownAsyncManager,54] - ====关闭后台任务任务线程池====
+22:09:56.962 [Thread-26] INFO  sys-user - [shutdownEhCacheManager,63] - ====关闭缓存====
+22:11:11.974 [Thread-26] INFO  sys-user - [shutdownSpringSessionValidationScheduler,41] - ====关闭会话验证任务====
+22:11:11.976 [Thread-26] INFO  sys-user - [shutdownAsyncManager,54] - ====关闭后台任务任务线程池====
+22:11:11.978 [Thread-26] INFO  sys-user - [shutdownEhCacheManager,63] - ====关闭缓存====
+22:13:26.028 [Thread-29] INFO  sys-user - [shutdownSpringSessionValidationScheduler,41] - ====关闭会话验证任务====
+22:13:26.029 [Thread-29] INFO  sys-user - [shutdownAsyncManager,54] - ====关闭后台任务任务线程池====
+22:13:26.030 [Thread-29] INFO  sys-user - [shutdownEhCacheManager,63] - ====关闭缓存====
+22:14:34.539 [Thread-26] INFO  sys-user - [shutdownSpringSessionValidationScheduler,41] - ====关闭会话验证任务====
+22:14:34.540 [Thread-26] INFO  sys-user - [shutdownAsyncManager,54] - ====关闭后台任务任务线程池====
+22:14:34.541 [Thread-26] INFO  sys-user - [shutdownEhCacheManager,63] - ====关闭缓存====

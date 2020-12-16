@@ -1,0 +1,4 @@
+09:04:04.900 [restartedMain] INFO  sys-user - [shutdownAsyncManager,62] - ====关闭后台任务任务线程池====
+09:04:04.902 [restartedMain] INFO  sys-user - [shutdownEhCacheManager,75] - ====关闭缓存====
+09:08:23.982 [Thread-83] INFO  sys-user - [shutdownAsyncManager,62] - ====关闭后台任务任务线程池====
+09:08:23.984 [Thread-83] INFO  sys-user - [shutdownEhCacheManager,75] - ====关闭缓存====

@@ -1,0 +1,13 @@
+/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-generator/src/main/java/com/ruoyi/generator/service/impl/GenTableServiceImpl.java
+/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-generator/src/main/java/com/ruoyi/generator/mapper/GenTableMapper.java
+/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-generator/src/main/java/com/ruoyi/generator/domain/GenTableColumn.java
+/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-generator/src/main/java/com/ruoyi/generator/util/GenUtils.java
+/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-generator/src/main/java/com/ruoyi/generator/util/VelocityInitializer.java
+/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-generator/src/main/java/com/ruoyi/generator/config/GenConfig.java
+/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-generator/src/main/java/com/ruoyi/generator/util/VelocityUtils.java
+/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-generator/src/main/java/com/ruoyi/generator/service/IGenTableColumnService.java
+/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-generator/src/main/java/com/ruoyi/generator/service/impl/GenTableColumnServiceImpl.java
+/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-generator/src/main/java/com/ruoyi/generator/service/IGenTableService.java
+/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-generator/src/main/java/com/ruoyi/generator/controller/GenController.java
+/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-generator/src/main/java/com/ruoyi/generator/domain/GenTable.java
+/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-generator/src/main/java/com/ruoyi/generator/mapper/GenTableColumnMapper.java

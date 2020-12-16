@@ -1,0 +1,478 @@
+21:38:15.801 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on loaclhost with PID 71897 (/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-admin/target/classes started by duanshengshun in /Users/duanshengshun/IdeaProjects/RuoYi)
+21:38:15.811 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+21:38:18.181 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+21:38:18.182 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache]
+21:38:19.004 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+21:38:19.347 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+21:38:19.523 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:38:19.538 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:38:19.539 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:38:19.539 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:38:19.826 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+21:38:19.827 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+21:38:20.359 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-80"]
+21:38:20.367 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:38:20.368 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+21:38:20.376 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/duanshengshun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+21:38:20.471 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:38:20.705 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+21:38:20.708 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+21:44:44.165 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on loaclhost with PID 72001 (/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-admin/target/classes started by duanshengshun in /Users/duanshengshun/IdeaProjects/RuoYi)
+21:44:44.173 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+21:44:46.543 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+21:44:46.544 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache]
+21:44:47.363 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+21:44:47.629 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+21:44:47.752 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:44:47.756 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:44:47.757 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:44:47.757 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:44:48.001 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+21:44:48.001 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+21:44:48.417 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-80"]
+21:44:48.424 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:44:48.424 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+21:44:48.430 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/duanshengshun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+21:44:48.505 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:44:48.747 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+21:44:48.750 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+21:45:00.628 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on loaclhost with PID 72011 (/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-admin/target/classes started by duanshengshun in /Users/duanshengshun/IdeaProjects/RuoYi)
+21:45:00.637 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+21:45:02.776 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+21:45:02.776 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache]
+21:45:03.558 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+21:45:03.742 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+21:45:03.846 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:45:03.851 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:45:03.852 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:45:03.853 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:45:04.097 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+21:45:04.097 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+21:45:04.499 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-80"]
+21:45:04.506 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:45:04.507 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+21:45:04.513 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/duanshengshun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+21:45:04.593 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:45:04.797 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+21:45:04.800 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+21:45:45.750 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on loaclhost with PID 72027 (/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-admin/target/classes started by duanshengshun in /Users/duanshengshun/IdeaProjects/RuoYi)
+21:45:45.756 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+21:45:47.901 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+21:45:47.902 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache]
+21:45:48.601 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+21:45:48.797 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+21:45:48.903 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:45:48.908 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:45:48.908 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:45:48.909 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:45:49.142 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+21:45:49.143 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+21:45:49.528 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-80"]
+21:45:49.536 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:45:49.536 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+21:45:49.542 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/duanshengshun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+21:45:49.620 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:51:08.393 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+21:51:08.397 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+21:51:12.596 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on loaclhost with PID 72098 (/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-admin/target/classes started by duanshengshun in /Users/duanshengshun/IdeaProjects/RuoYi)
+21:51:12.616 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+21:51:14.895 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+21:51:14.896 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache]
+21:51:15.629 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+21:51:15.838 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+21:51:15.946 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:51:15.950 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:51:15.951 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:51:15.952 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:51:16.189 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+21:51:16.190 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+21:51:16.573 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-80"]
+21:51:16.580 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:51:16.580 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+21:51:16.586 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/duanshengshun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+21:51:16.668 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:53:22.195 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+21:53:22.198 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+21:53:26.204 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on loaclhost with PID 72131 (/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-admin/target/classes started by duanshengshun in /Users/duanshengshun/IdeaProjects/RuoYi)
+21:53:26.209 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+21:53:28.298 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+21:53:28.299 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache]
+21:53:29.043 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+21:53:29.242 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+21:53:29.344 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:53:29.348 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:53:29.349 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:53:29.349 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:53:29.577 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+21:53:29.578 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+21:53:29.954 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-80"]
+21:53:29.962 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:53:29.962 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+21:53:29.968 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/duanshengshun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+21:53:30.041 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:54:00.729 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+21:54:00.732 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+21:54:06.382 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on loaclhost with PID 72143 (/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-admin/target/classes started by duanshengshun in /Users/duanshengshun/IdeaProjects/RuoYi)
+21:54:06.389 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+21:54:08.290 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+21:54:08.291 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache]
+21:54:09.029 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+21:54:09.223 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+21:54:09.319 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:54:09.324 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:54:09.324 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:54:09.325 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:54:09.553 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+21:54:09.554 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+21:54:09.932 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-80"]
+21:54:09.939 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:54:09.939 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+21:54:09.945 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/duanshengshun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+21:54:10.018 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:02:54.454 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:02:54.458 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:02:54.461 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:02:54.464 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:02:54.467 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:02:54.470 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:02:54.473 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:02:54.477 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:02:54.481 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:02:54.484 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:02:54.851 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+22:02:54.904 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+22:02:54.904 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+22:02:54.914 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'RuoyiScheduler' with instanceId 'loaclhost1608127374876'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+22:02:54.914 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+22:02:54.915 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+22:02:54.916 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@4d282265
+22:02:55.867 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+22:02:57.062 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+22:02:57.085 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+22:02:57.315 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+22:02:57.489 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-80"]
+22:02:57.508 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+22:02:57.542 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 531.762 seconds (JVM running for 532.606)
+22:02:58.501 [Quartz Scheduler [RuoyiScheduler]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler RuoyiScheduler_$_loaclhost1608127374876 started.
+22:03:36.466 [http-nio-80-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:03:36.511 [http-nio-80-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+22:03:36.525 [http-nio-80-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [shiro-activeSessionCache]
+22:03:37.518 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,87] - invalidation sessions...
+22:03:37.525 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,132] - Finished invalidation session. No sessions were stopped.
+22:05:41.090 [Thread-24] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler RuoyiScheduler_$_loaclhost1608127374876 paused.
+22:05:41.097 [Thread-24] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler RuoyiScheduler_$_loaclhost1608127374876 shutting down.
+22:05:41.097 [Thread-24] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler RuoyiScheduler_$_loaclhost1608127374876 paused.
+22:05:41.098 [Thread-24] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler RuoyiScheduler_$_loaclhost1608127374876 shutdown complete.
+22:05:41.099 [Thread-24] INFO  sys-user - [shutdownSpringSessionValidationScheduler,41] - ====关闭会话验证任务====
+22:05:41.106 [Thread-24] INFO  sys-user - [shutdownAsyncManager,54] - ====关闭后台任务任务线程池====
+22:05:41.107 [Thread-24] INFO  sys-user - [shutdownEhCacheManager,63] - ====关闭缓存====
+22:05:41.129 [Thread-24] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+22:06:10.762 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on loaclhost with PID 72324 (/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-admin/target/classes started by duanshengshun in /Users/duanshengshun/IdeaProjects/RuoYi)
+22:06:10.764 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+22:06:12.851 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+22:06:12.852 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache]
+22:06:13.627 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+22:06:13.807 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+22:06:13.917 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:06:13.922 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:06:13.923 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:06:13.923 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:06:14.175 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:06:14.176 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:06:14.603 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-80"]
+22:06:14.611 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:06:14.611 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+22:06:14.618 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/duanshengshun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22:06:14.694 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:06:32.810 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:06:32.813 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:06:32.816 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:06:32.820 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:06:32.823 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:06:32.826 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:06:32.829 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:06:32.837 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:06:32.842 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:06:32.846 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:06:33.178 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+22:06:33.201 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+22:06:33.201 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+22:06:33.212 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'RuoyiScheduler' with instanceId 'loaclhost1608127593183'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+22:06:33.212 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+22:06:33.213 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+22:06:33.214 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@6707b527
+22:06:34.126 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+22:06:35.067 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+22:06:35.085 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+22:06:35.342 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+22:06:35.487 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-80"]
+22:06:35.503 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+22:06:35.524 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 25.23 seconds (JVM running for 26.067)
+22:06:36.495 [Quartz Scheduler [RuoyiScheduler]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler RuoyiScheduler_$_loaclhost1608127593183 started.
+22:06:43.951 [http-nio-80-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:06:43.982 [http-nio-80-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+22:06:43.989 [http-nio-80-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [shiro-activeSessionCache]
+22:06:46.614 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,87] - invalidation sessions...
+22:06:47.261 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,132] - Finished invalidation session. No sessions were stopped.
+22:08:56.657 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on loaclhost with PID 72365 (/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-admin/target/classes started by duanshengshun in /Users/duanshengshun/IdeaProjects/RuoYi)
+22:08:56.664 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+22:08:58.657 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+22:08:58.658 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache]
+22:08:59.375 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+22:08:59.557 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+22:08:59.660 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:08:59.664 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:08:59.665 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:08:59.665 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:08:59.910 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:08:59.910 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:09:00.303 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-80"]
+22:09:00.310 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:09:00.310 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+22:09:00.316 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/duanshengshun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22:09:00.392 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:09:00.760 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:09:00.764 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:09:00.768 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:09:00.770 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:09:00.773 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:09:00.776 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:09:00.778 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:09:00.783 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:09:00.787 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:09:00.789 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:09:01.056 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+22:09:01.070 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+22:09:01.071 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+22:09:01.076 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'RuoyiScheduler' with instanceId 'loaclhost1608127741060'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+22:09:01.077 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+22:09:01.077 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+22:09:01.078 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@387cf183
+22:09:01.939 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+22:09:03.141 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+22:09:03.160 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+22:09:03.221 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+22:09:03.577 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-80"]
+22:09:03.593 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+22:09:03.612 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 7.398 seconds (JVM running for 8.239)
+22:09:04.595 [Quartz Scheduler [RuoyiScheduler]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler RuoyiScheduler_$_loaclhost1608127741060 started.
+22:09:07.571 [http-nio-80-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:09:07.611 [http-nio-80-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+22:09:07.620 [http-nio-80-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [shiro-activeSessionCache]
+22:09:09.652 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,87] - invalidation sessions...
+22:09:10.307 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,132] - Finished invalidation session. No sessions were stopped.
+22:09:56.940 [Thread-26] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler RuoyiScheduler_$_loaclhost1608127741060 paused.
+22:09:56.952 [Thread-26] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler RuoyiScheduler_$_loaclhost1608127741060 shutting down.
+22:09:56.953 [Thread-26] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler RuoyiScheduler_$_loaclhost1608127741060 paused.
+22:09:56.958 [Thread-26] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler RuoyiScheduler_$_loaclhost1608127741060 shutdown complete.
+22:09:56.958 [Thread-26] INFO  sys-user - [shutdownSpringSessionValidationScheduler,41] - ====关闭会话验证任务====
+22:09:56.961 [Thread-26] INFO  sys-user - [shutdownAsyncManager,54] - ====关闭后台任务任务线程池====
+22:09:56.962 [Thread-26] INFO  sys-user - [shutdownEhCacheManager,63] - ====关闭缓存====
+22:09:56.990 [Thread-26] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+22:10:01.809 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on loaclhost with PID 72387 (/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-admin/target/classes started by duanshengshun in /Users/duanshengshun/IdeaProjects/RuoYi)
+22:10:01.816 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+22:10:04.360 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+22:10:04.361 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache]
+22:10:05.055 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+22:10:05.254 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+22:10:05.350 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:10:05.353 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:10:05.354 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:10:05.355 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:10:05.581 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:10:05.581 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:10:05.960 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-80"]
+22:10:05.968 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:10:05.968 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+22:10:05.974 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/duanshengshun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22:10:06.051 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:10:06.420 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:10:06.424 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:10:06.426 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:10:06.429 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:10:06.432 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:10:06.435 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:10:06.437 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:10:06.442 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:10:06.446 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:10:06.449 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:10:06.743 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+22:10:06.757 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+22:10:06.757 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+22:10:06.763 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'RuoyiScheduler' with instanceId 'loaclhost1608127806747'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+22:10:06.763 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+22:10:06.763 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+22:10:06.765 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@7b48c9b
+22:10:07.603 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+22:10:08.559 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+22:10:08.572 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+22:10:08.786 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+22:10:08.932 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-80"]
+22:10:08.949 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+22:10:08.970 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 7.607 seconds (JVM running for 8.401)
+22:10:09.945 [Quartz Scheduler [RuoyiScheduler]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler RuoyiScheduler_$_loaclhost1608127806747 started.
+22:10:14.273 [http-nio-80-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:10:14.316 [http-nio-80-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+22:10:14.333 [http-nio-80-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [shiro-activeSessionCache]
+22:10:16.305 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,87] - invalidation sessions...
+22:10:16.872 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,132] - Finished invalidation session. No sessions were stopped.
+22:11:11.949 [Thread-26] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler RuoyiScheduler_$_loaclhost1608127806747 paused.
+22:11:11.964 [Thread-26] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler RuoyiScheduler_$_loaclhost1608127806747 shutting down.
+22:11:11.964 [Thread-26] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler RuoyiScheduler_$_loaclhost1608127806747 paused.
+22:11:11.973 [Thread-26] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler RuoyiScheduler_$_loaclhost1608127806747 shutdown complete.
+22:11:11.974 [Thread-26] INFO  sys-user - [shutdownSpringSessionValidationScheduler,41] - ====关闭会话验证任务====
+22:11:11.976 [Thread-26] INFO  sys-user - [shutdownAsyncManager,54] - ====关闭后台任务任务线程池====
+22:11:11.978 [Thread-26] INFO  sys-user - [shutdownEhCacheManager,63] - ====关闭缓存====
+22:11:11.999 [Thread-26] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+22:11:16.330 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on loaclhost with PID 72434 (/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-admin/target/classes started by duanshengshun in /Users/duanshengshun/IdeaProjects/RuoYi)
+22:11:16.332 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+22:11:19.231 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+22:11:19.232 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache]
+22:11:20.434 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+22:11:20.665 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+22:11:20.773 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:11:20.777 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:11:20.778 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:11:20.778 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:11:21.030 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:11:21.030 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:11:21.464 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-80"]
+22:11:21.471 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:11:21.472 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+22:11:21.479 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/duanshengshun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22:11:21.561 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:11:21.961 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:11:21.964 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:11:21.967 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:11:21.970 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:11:21.973 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:11:21.976 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:11:21.979 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:11:21.983 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:11:21.987 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:11:21.990 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:11:22.323 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+22:11:22.337 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+22:11:22.338 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+22:11:22.344 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'RuoyiScheduler' with instanceId 'loaclhost1608127882327'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+22:11:22.344 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+22:11:22.344 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+22:11:22.345 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@75a8249
+22:11:23.328 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+22:11:24.381 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+22:11:24.394 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+22:11:24.441 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+22:11:24.776 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-80"]
+22:11:24.796 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+22:11:24.820 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 8.952 seconds (JVM running for 9.943)
+22:11:25.793 [Quartz Scheduler [RuoyiScheduler]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler RuoyiScheduler_$_loaclhost1608127882327 started.
+22:11:31.182 [http-nio-80-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:11:31.219 [http-nio-80-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+22:11:31.229 [http-nio-80-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [shiro-activeSessionCache]
+22:11:40.928 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,87] - invalidation sessions...
+22:11:40.947 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,132] - Finished invalidation session. No sessions were stopped.
+22:13:26.021 [Thread-29] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler RuoyiScheduler_$_loaclhost1608127882327 paused.
+22:13:26.025 [Thread-29] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler RuoyiScheduler_$_loaclhost1608127882327 shutting down.
+22:13:26.025 [Thread-29] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler RuoyiScheduler_$_loaclhost1608127882327 paused.
+22:13:26.027 [Thread-29] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler RuoyiScheduler_$_loaclhost1608127882327 shutdown complete.
+22:13:26.028 [Thread-29] INFO  sys-user - [shutdownSpringSessionValidationScheduler,41] - ====关闭会话验证任务====
+22:13:26.029 [Thread-29] INFO  sys-user - [shutdownAsyncManager,54] - ====关闭后台任务任务线程池====
+22:13:26.030 [Thread-29] INFO  sys-user - [shutdownEhCacheManager,63] - ====关闭缓存====
+22:13:26.045 [Thread-29] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+22:13:34.711 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on loaclhost with PID 72471 (/Users/duanshengshun/IdeaProjects/RuoYi/ruoyi-admin/target/classes started by duanshengshun in /Users/duanshengshun/IdeaProjects/RuoYi)
+22:13:34.718 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+22:13:36.686 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+22:13:36.687 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache]
+22:13:37.420 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+22:13:37.627 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+22:13:37.724 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:13:37.728 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:13:37.728 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:13:37.729 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:13:37.953 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:13:37.954 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:13:38.322 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-80"]
+22:13:38.329 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:13:38.329 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+22:13:38.335 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/duanshengshun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22:13:38.414 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:13:38.782 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:13:38.785 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:13:38.788 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:13:38.791 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:13:38.794 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:13:38.797 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:13:38.800 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:13:38.805 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:13:38.809 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:13:38.812 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:13:39.125 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+22:13:39.145 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+22:13:39.145 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+22:13:39.151 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'RuoyiScheduler' with instanceId 'loaclhost1608128019136'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+22:13:39.151 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+22:13:39.151 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+22:13:39.152 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@4fa25e95
+22:13:39.951 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+22:13:40.889 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+22:13:40.902 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+22:13:40.950 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+22:13:41.239 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-80"]
+22:13:41.257 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+22:13:41.277 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 7.249 seconds (JVM running for 8.256)
+22:13:42.239 [Quartz Scheduler [RuoyiScheduler]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler RuoyiScheduler_$_loaclhost1608128019136 started.
+22:13:44.386 [http-nio-80-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:13:44.420 [http-nio-80-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+22:13:44.432 [http-nio-80-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [shiro-activeSessionCache]
+22:13:45.426 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,87] - invalidation sessions...
+22:13:45.454 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,132] - Finished invalidation session. No sessions were stopped.
+22:14:34.533 [Thread-26] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler RuoyiScheduler_$_loaclhost1608128019136 paused.
+22:14:34.537 [Thread-26] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler RuoyiScheduler_$_loaclhost1608128019136 shutting down.
+22:14:34.537 [Thread-26] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler RuoyiScheduler_$_loaclhost1608128019136 paused.
+22:14:34.538 [Thread-26] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler RuoyiScheduler_$_loaclhost1608128019136 shutdown complete.
+22:14:34.539 [Thread-26] INFO  sys-user - [shutdownSpringSessionValidationScheduler,41] - ====关闭会话验证任务====
+22:14:34.540 [Thread-26] INFO  sys-user - [shutdownAsyncManager,54] - ====关闭后台任务任务线程池====
+22:14:34.541 [Thread-26] INFO  sys-user - [shutdownEhCacheManager,63] - ====关闭缓存====
+22:14:34.556 [Thread-26] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed

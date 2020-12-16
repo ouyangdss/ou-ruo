@@ -1,0 +1,18 @@
+09:24:12.648 [schedule-pool-7] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+09:24:12.654 [schedule-pool-7] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+09:34:12.643 [schedule-pool-5] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+09:34:12.646 [schedule-pool-5] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+09:44:12.625 [schedule-pool-8] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+09:44:12.628 [schedule-pool-8] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+09:54:12.628 [schedule-pool-2] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+09:54:12.631 [schedule-pool-2] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+10:04:12.598 [schedule-pool-9] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+10:04:12.600 [schedule-pool-9] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+10:12:00.360 [Thread-26] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler RuoyiScheduler_$_duanshengshun-mac.local1603788360307 paused.
+10:12:00.367 [Thread-26] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler RuoyiScheduler_$_duanshengshun-mac.local1603788360307 shutting down.
+10:12:00.367 [Thread-26] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler RuoyiScheduler_$_duanshengshun-mac.local1603788360307 paused.
+10:12:00.368 [Thread-26] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler RuoyiScheduler_$_duanshengshun-mac.local1603788360307 shutdown complete.
+10:12:00.368 [Thread-26] INFO  sys-user - [shutdownSpringSessionValidationScheduler,45] - ====关闭会话验证任务====
+10:12:00.370 [Thread-26] INFO  sys-user - [shutdownAsyncManager,62] - ====关闭后台任务任务线程池====
+10:12:00.371 [Thread-26] INFO  sys-user - [shutdownEhCacheManager,75] - ====关闭缓存====
+10:12:00.387 [Thread-26] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed

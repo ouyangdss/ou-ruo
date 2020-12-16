@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.system.mapper.DbDataDocConfMapper">
+
+    <resultMap type="DbDataDocConf" id="DbDataDocConfResult">
+        <result property="configId" column="config_id"/>
+        <result property="dbName" column="db_name"/>
+        <result property="driverClassName" column="driver_class_name"/>
+        <result property="jdbcUrl" column="jdbc_url"/>
+        <result property="userName" column="user_name"/>
+        <result property="passWord" column="pass_word"/>
+        <result property="schemaName" column="schema_name"/>
+        <result property="fileOutputDir" column="file_output_dir"/>
+        <result property="createTime" column="create_time"/>
+        <result property="createBy" column="create_by"/>
+        <result property="updateBy" column="update_by"/>
+        <result property="updateTime" column="update_time"/>
+    </resultMap>
+
+    <sql id="selectDbDataDocConfVo">
+        select config_id, db_name, driver_class_name, jdbc_url, user_name, pass_word, schema_name, file_output_dir, create_time, create_by, update_by, update_time from db_data_doc_conf
+    </sql>
+
+    <select id="selectDbDataDocConfList" parameterType="DbDataDocConf" resultMap="DbDataDocConfResult">
+        <include refid="selectDbDataDocConfVo"/>
+        <where>
+            <if test="dbName != null  and dbName != ''">and db_name like concat('%', #{dbName}, '%')</if>
+            <if test="driverClassName != null  and driverClassName != ''">and driver_class_name like concat('%',
+                #{driverClassName}, '%')
+            </if>
+            <if test="jdbcUrl != null  and jdbcUrl != ''">and jdbc_url = #{jdbcUrl}</if>
+            <if test="userName != null  and userName != ''">and user_name like concat('%', #{userName}, '%')</if>
+            <if test="passWord != null  and passWord != ''">and pass_word = #{passWord}</if>
+            <if test="schemaName != null  and schemaName != ''">and schema_name like concat('%', #{schemaName}, '%')
+            </if>
+            <if test="fileOutputDir != null  and fileOutputDir != ''">and file_output_dir = #{fileOutputDir}</if>
+        </where>
+    </select>
+
+    <select id="selectDbDataDocConfById" parameterType="Integer" resultMap="DbDataDocConfResult">
+        <include refid="selectDbDataDocConfVo"/>
+        where config_id = #{configId}
+    </select>
+
+    <insert id="insertDbDataDocConf" parameterType="DbDataDocConf" useGeneratedKeys="true" keyProperty="configId">
+        insert into db_data_doc_conf
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="dbName != null">db_name,</if>
+            <if test="driverClassName != null">driver_class_name,</if>
+            <if test="jdbcUrl != null">jdbc_url,</if>
+            <if test="userName != null">user_name,</if>
+            <if test="passWord != null">pass_word,</if>
+            <if test="schemaName != null">schema_name,</if>
+            <if test="fileOutputDir != null">file_output_dir,</if>
+            <if test="createTime != null">create_time,</if>
+            <if test="createBy != null">create_by,</if>
+            <if test="updateBy != null">update_by,</if>
+            <if test="updateTime != null">update_time,</if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="dbName != null">#{dbName},</if>
+            <if test="driverClassName != null">#{driverClassName},</if>
+            <if test="jdbcUrl != null">#{jdbcUrl},</if>
+            <if test="userName != null">#{userName},</if>
+            <if test="passWord != null">#{passWord},</if>
+            <if test="schemaName != null">#{schemaName},</if>
+            <if test="fileOutputDir != null">#{fileOutputDir},</if>
+            <if test="createTime != null">#{createTime},</if>
+            <if test="createBy != null">#{createBy},</if>
+            <if test="updateBy != null">#{updateBy},</if>
+            <if test="updateTime != null">#{updateTime},</if>
+        </trim>
+    </insert>
+
+    <update id="updateDbDataDocConf" parameterType="DbDataDocConf">
+        update db_data_doc_conf
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="dbName != null">db_name = #{dbName},</if>
+            <if test="driverClassName != null">driver_class_name = #{driverClassName},</if>
+            <if test="jdbcUrl != null">jdbc_url = #{jdbcUrl},</if>
+            <if test="userName != null">user_name = #{userName},</if>
+            <if test="passWord != null">pass_word = #{passWord},</if>
+            <if test="schemaName != null">schema_name = #{schemaName},</if>
+            <if test="fileOutputDir != null">file_output_dir = #{fileOutputDir},</if>
+            <if test="createTime != null">create_time = #{createTime},</if>
+            <if test="createBy != null">create_by = #{createBy},</if>
+            <if test="updateBy != null">update_by = #{updateBy},</if>
+            <if test="updateTime != null">update_time = #{updateTime},</if>
+        </trim>
+        where config_id = #{configId}
+    </update>
+
+    <delete id="deleteDbDataDocConfById" parameterType="Integer">
+        delete from db_data_doc_conf where config_id = #{configId}
+    </delete>
+
+    <delete id="deleteDbDataDocConfByIds" parameterType="String">
+        delete from db_data_doc_conf where config_id in
+        <foreach item="configId" collection="array" open="(" separator="," close=")">
+            #{configId}
+        </foreach>
+    </delete>
+
+</mapper>

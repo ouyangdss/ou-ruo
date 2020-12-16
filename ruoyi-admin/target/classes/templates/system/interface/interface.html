@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org" xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+<head>
+    <th:block th:include="include :: header('通知公告列表')"/>
+</head>
+<body class="gray-bg">
+<div class="container-div">
+    <div class="row">
+        <!-- 接口列表区域-->
+        <div class="col-sm-12 search-collapse">
+            <form id="interfae-list-form">
+                <div class="select-list">
+                    <ul>
+                        <li>
+                            接口：<select id="interfae_serverName" name="serverName"
+                                       th:with="type=${@interfaceInfo.getInterfaceInfo()}"
+                                       onchange="openServerView()">
+                            <option value="">所有</option>
+                            <option th:each="interfaceInfo : ${type}" th:text="${interfaceInfo.serverName}"
+                                    th:value="${interfaceInfo.serverView}"></option>
+                        </select>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+        <!-- 接口内容展示区域-->
+        <div class="col-sm-12 search-collapse" id="interfaeViewDiv" style="display:none;">
+            <form id="interfaeViewForm">
+
+
+            </form>
+        </div>
+    </div>
+</div>
+<th:block th:include="include :: footer"/>
+<script th:inline="javascript">
+    var servers = [[${@interfaceInfo.getInterfaceInfo()}]];
+    var prefix = ctx + "system/interface";
+
+    var openServerView = function () {
+        var optionServer = $("#interfae_serverName option:selected");
+        // var message = optionServer.html()+":"+optionServer.val();
+        var value = optionServer.val().split("-")[1];
+        if ($.common.isEmpty(value)) {
+            $("#interfaeViewDiv").attr("style", "display:none;");
+            return;
+        }
+        var html = "./interface/" + value;
+        //加载html文件
+        $.ajax({
+            url: html, //这里是静态页的地址
+            type: "GET", //静态页用get方法，否则服务器会抛出405错误
+            success: function (data) {
+                //将接口对应的页面添加到接口展示区域
+                // var div = document.getElementById("interfaeViewDiv");
+                var div = document.getElementById("interfaeViewForm");
+                div.innerHTML = data;
+                document.getElementById("interfaeViewDiv").style.display = "";
+            }
+        });
+
+    }
+</script>
+</body>
+</html>

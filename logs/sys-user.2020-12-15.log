@@ -1,0 +1,10 @@
+10:30:10.379 [Thread-25] INFO  sys-user - [shutdownAsyncManager,54] - ====关闭后台任务任务线程池====
+10:30:10.383 [Thread-25] INFO  sys-user - [shutdownEhCacheManager,63] - ====关闭缓存====
+10:32:34.170 [Thread-24] INFO  sys-user - [shutdownAsyncManager,54] - ====关闭后台任务任务线程池====
+10:32:34.170 [Thread-24] INFO  sys-user - [shutdownEhCacheManager,63] - ====关闭缓存====
+10:43:26.976 [restartedMain] INFO  sys-user - [shutdownAsyncManager,54] - ====关闭后台任务任务线程池====
+10:43:26.978 [restartedMain] INFO  sys-user - [shutdownEhCacheManager,63] - ====关闭缓存====
+10:51:30.230 [restartedMain] INFO  sys-user - [shutdownAsyncManager,54] - ====关闭后台任务任务线程池====
+10:51:30.231 [restartedMain] INFO  sys-user - [shutdownEhCacheManager,63] - ====关闭缓存====
+11:49:53.071 [Thread-28] INFO  sys-user - [shutdownAsyncManager,54] - ====关闭后台任务任务线程池====
+11:49:53.074 [Thread-28] INFO  sys-user - [shutdownEhCacheManager,63] - ====关闭缓存====
