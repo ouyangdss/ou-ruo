@@ -1,6 +1,7 @@
 package test;
 
 import com.ruoyi.system.StringSequenceGenerator;
+import com.ruoyi.system.string.EaioStringSequenceGenerator;
 import com.ruoyi.system.string.JvmStringSequenceGenerator;
 import com.ruoyi.system.utils.SequenceUtil;
 import com.ruoyi.system.utils.SequenceUtils;
@@ -41,6 +42,17 @@ public class TestSequenceUtil {
         });
         printLists(orderNos);
     }
+    @Test
+    public void test3(){
+        //测试创建UUID的方式
+        StringSequenceGenerator sequenceGenerator = new EaioStringSequenceGenerator();
+        List<String> orderNos = Collections.synchronizedList(new ArrayList<String>());
+        IntStream.range(0, 80000).parallel().forEach(i -> {
+            orderNos.add(sequenceGenerator.getStringSequence().replace("-",""));
+        });
+        printLists(orderNos);
+    }
+
 
 
     private void printLists(List<String> orderNos){
