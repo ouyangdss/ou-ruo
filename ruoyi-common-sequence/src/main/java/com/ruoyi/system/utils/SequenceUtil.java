@@ -27,7 +27,7 @@ public class SequenceUtil {
     /**
      * 生成安全信息业务id
      */
-    static class  SecurityId {
+    public static class  SecurityId {
         private static ZoneId ZONE_ID = ZoneId.of("Asia/Shanghai");
         private static final AtomicInteger SEQ = new AtomicInteger(100000);
         private static final DateTimeFormatter DF_FMT_PREFIX = DateTimeFormatter.ofPattern("yyMMddHHmmssSS");
@@ -48,7 +48,7 @@ public class SequenceUtil {
     /**
      * 生成电器设备信息业务id
      */
-    static class  ElectricalId {
+    public static class  ElectricalId {
         private static ZoneId ZONE_ID = ZoneId.of("Asia/Shanghai");
         private static final AtomicInteger SEQ = new AtomicInteger(100000);
         private static final DateTimeFormatter DF_FMT_PREFIX = DateTimeFormatter.ofPattern("yyMMddHHmmssSS");
@@ -68,7 +68,7 @@ public class SequenceUtil {
     /**
      * 生成燃气设备信息业务id
      */
-    static class  GasEquipmentId {
+    public static class  GasEquipmentId {
         private static ZoneId ZONE_ID = ZoneId.of("Asia/Shanghai");
         private static final AtomicInteger SEQ = new AtomicInteger(100000);
         private static final DateTimeFormatter DF_FMT_PREFIX = DateTimeFormatter.ofPattern("yyMMddHHmmssSS");
@@ -88,7 +88,7 @@ public class SequenceUtil {
     /**
      * 生成水系统信息业务id
      */
-    static class  WaterSystemId {
+    public static class  WaterSystemId {
         private static ZoneId ZONE_ID = ZoneId.of("Asia/Shanghai");
         private static final AtomicInteger SEQ = new AtomicInteger(100000);
         private static final DateTimeFormatter DF_FMT_PREFIX = DateTimeFormatter.ofPattern("yyMMddHHmmssSS");
