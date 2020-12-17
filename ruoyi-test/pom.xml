@@ -15,6 +15,11 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.ruoyi</groupId>
+            <artifactId>ruoyi-common-sequence</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 
 
