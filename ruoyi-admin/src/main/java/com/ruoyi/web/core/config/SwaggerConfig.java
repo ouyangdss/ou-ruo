@@ -53,6 +53,7 @@ public class SwaggerConfig {
      * 添加摘要信息
      */
     private ApiInfo apiInfo() {
+        Contact contact = new Contact("段圣顺", "http://www.xiaomin2019.xyz", "781521776@qq.com");
         // 用ApiInfoBuilder进行定制
         return new ApiInfoBuilder()
                 // 设置标题
@@ -60,7 +61,7 @@ public class SwaggerConfig {
                 // 描述
                 .description("描述：用于管理集团旗下公司的人员信息,具体包括XXX,XXX模块...")
                 // 作者信息
-                .contact(new Contact(Global.getName(), null, null))
+                .contact(contact)
                 // 版本
                 .version("版本号:" + Global.getVersion())
                 .build();

@@ -256,6 +256,14 @@ public class ShiroConfig {
         //微信相关
         filterChainDefinitionMap.put("/wx/**", "anon");
         // 对静态资源设置匿名访问
+        //swagger 相关的拦截
+        filterChainDefinitionMap.put("/doc.html", "anon");
+        filterChainDefinitionMap.put("/swagger/**", "anon");
+        filterChainDefinitionMap.put("/v2/api-docs", "anon");
+        filterChainDefinitionMap.put("/v2/api-docs-ext", "anon");
+        filterChainDefinitionMap.put("/swagger-ui.html", "anon");
+        filterChainDefinitionMap.put("/swagger-resources/**", "anon");
+
         filterChainDefinitionMap.put("/favicon.ico**", "anon");
         filterChainDefinitionMap.put("/ruoyi.png**", "anon");
         filterChainDefinitionMap.put("/css/**", "anon");
