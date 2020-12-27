@@ -59,8 +59,29 @@
                 document.getElementById("interfaeViewDiv").style.display = "";
             }
         });
-
     }
+    // 百度地图api
+    var searchCoordinate = function(){
+        var apiAddress = $("#baiduApi_apiAddress").val();
+        if(!$.isEmptyObject(apiAddress)){
+            $.ajax({
+                url: prefix + "/getLatAndLngByAddress",
+                data: {'apiAddress':apiAddress},
+                type: "post",
+                success: function (result) {
+                    if (result.code == 0) {
+                        $("#baiduApi_coordinate").val(JSON.stringify(result.data));
+                        $.modal.msg(JSON.stringify(result.data),modal_status.SUCCESS);
+                    } else {
+                        $("#baiduApi_coordinate").val(da);
+                        var msg = result.msg;
+                        $.modal.msg(msg,modal_status.FAIL);
+                    }
+                }
+            })
+        }
+    }
+
 </script>
 </body>
 </html>

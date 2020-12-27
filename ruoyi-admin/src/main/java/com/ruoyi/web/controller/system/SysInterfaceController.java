@@ -1,26 +1,38 @@
 package com.ruoyi.web.controller.system;
 
+import com.alibaba.druid.wall.violation.ErrorCode;
 import com.ruoyi.common.annotation.Log;
 import com.ruoyi.common.core.controller.BaseController;
 import com.ruoyi.common.core.domain.AjaxResult;
 import com.ruoyi.common.core.page.TableDataInfo;
 import com.ruoyi.common.enums.BusinessType;
+import com.ruoyi.framework.api.GeocodingService;
 import com.ruoyi.framework.util.ShiroUtils;
 import com.ruoyi.system.domain.SysNotice;
 import com.ruoyi.system.service.ISysNoticeService;
+import com.ruoyi.util.Result;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiImplicitParams;
+import io.swagger.annotations.ApiOperation;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
+import javax.annotation.Resource;
 import java.util.List;
+import java.util.Map;
 
 /**
  * 公告 信息操作处理
  *
  * @author ruoyi
  */
+@Slf4j
 @Controller
 @RequestMapping("/system/interface")
 public class SysInterfaceController extends BaseController {
@@ -39,6 +51,12 @@ public class SysInterfaceController extends BaseController {
     @GetMapping("/orderTrajectory")
     public String orderTrajectory() {
         return prefix + "/orderTrajectory";
+    }
+
+    @RequiresPermissions("system:interface:view")
+    @GetMapping("/baiduApi")
+    public String baiduApi() {
+        return prefix + "/baiduApi";
     }
 
     /**
@@ -104,4 +122,34 @@ public class SysInterfaceController extends BaseController {
     public AjaxResult remove(String ids) {
         return toAjax(noticeService.deleteNoticeByIds(ids));
     }
+
+    @Resource(name = "geocodingService")
+    private GeocodingService geocodingService;
+
+    @PostMapping("getLatAndLngByAddress")
+    @ApiOperation("根据地址获取经纬度")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "address", value = "地址", paramType = "query", required = true, dataType = "String"),
+    })
+    @ResponseBody
+    public Result getLatAndLngByAddress(@RequestBody @Validated String address, BindingResult bindingResult){
+
+        log.info("根据地址获取经纬度入参:{}" , address);
+
+        Result result = new Result();
+
+        if (bindingResult.hasErrors()) {
+            result.error(ErrorCode.NOT_PARAMETERIZED,bindingResult.getFieldError().getDefaultMessage());
+            return result;
+        }
+        try {
+            Map<String, Double> latAndLngByAddress = geocodingService.getLatAndLngByAddress(address);
+            result.setData(latAndLngByAddress);
+        } catch (Exception e){
+            log.error("根据地址获取经纬度异常" + e);
+            result.error(ErrorCode.OTHER,"根据地址获取经纬度异常！");
+        }
+        return result;
+    }
+
 }
