@@ -50,6 +50,7 @@ spring:
     cache: false
   # 资源信息
   messages:
+    encoding: UTF-8
     # 国际化资源文件路径
     basename: static/i18n/messages
   jackson:

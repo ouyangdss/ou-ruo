@@ -1,6 +1,8 @@
 package com.ruoyi.web.controller.system;
 
 import com.alibaba.druid.wall.violation.ErrorCode;
+import com.alibaba.fastjson.JSON;
+import com.ruoyi.common.annotation.DataScope;
 import com.ruoyi.common.annotation.Log;
 import com.ruoyi.common.core.controller.BaseController;
 import com.ruoyi.common.core.domain.AjaxResult;
@@ -11,6 +13,7 @@ import com.ruoyi.framework.util.ShiroUtils;
 import com.ruoyi.system.domain.SysNotice;
 import com.ruoyi.system.service.ISysNoticeService;
 import com.ruoyi.util.Result;
+import com.ruoyi.web.controller.params.QueryDistanceParam;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
@@ -24,6 +27,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.math.BigDecimal;
 import java.util.List;
 import java.util.Map;
 
@@ -148,6 +152,43 @@ public class SysInterfaceController extends BaseController {
         } catch (Exception e){
             log.error("根据地址获取经纬度异常" + e);
             result.error(ErrorCode.OTHER,"根据地址获取经纬度异常！");
+        }
+        return result;
+    }
+
+    @PostMapping("getDistanceFromTwoPlaces")
+    @ApiOperation("计算两个地址的距离")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "address", value = "地址A", paramType = "query", required = true, dataType = "String"),
+            @ApiImplicitParam(name = "otherAddress", value = "地址B", paramType = "query", required = true, dataType = "String"),
+    })
+    @ResponseBody
+    public Result getDistanceFromTwoPlaces(@RequestBody @Validated QueryDistanceParam param, BindingResult bindingResult){
+        log.info("计算两个地址的距离:{}" ,JSON.toJSONString(param));
+
+        Result result = new Result();
+
+        if (bindingResult.hasErrors()) {
+            result.error(ErrorCode.NOT_PARAMETERIZED,bindingResult.getFieldError().getDefaultMessage());
+            return result;
+        }
+        try {
+            Double distanceFromTwoPlaces = geocodingService.getDistanceFromTwoPlaces(param.getAddress(), param.getOtherAddress());
+            String des = "";
+            if(distanceFromTwoPlaces !=null){
+                BigDecimal distance = new BigDecimal(distanceFromTwoPlaces);
+                if(distance.compareTo(new BigDecimal("100")) > 0){
+                    distance = distance.divide(new BigDecimal("1000"));
+                    des = "公里";
+                } else {
+                    des = "米";
+                }
+                distance = distance.setScale(2, BigDecimal.ROUND_HALF_UP);
+                result.setData(distance+des);
+            }
+        } catch (Exception e){
+            log.error("计算两个地址的距离异常" + e);
+            result.error(ErrorCode.OTHER,"计算两个地址的距离异常！");
         }
         return result;
     }
